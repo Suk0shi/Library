@@ -1,0 +1,51 @@
+body {
+    display: grid; 
+    justify-content: center;
+    align-items: center;  
+    height: 100vh;
+    margin: 0;
+    width: 100vw;
+}
+
+h1 {
+    justify-self: center;
+}
+
+#formElement{
+    position: fixed;
+    background-color: rgb(204, 204, 204);
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px;
+    border-radius: 40px;
+}
+
+#formBackground{
+    width: 100vw;
+    height: 100vh;
+    background-color: grey;
+}
+
+input {
+    font: 1em sans-serif;
+    width: 250px;
+    height: 30px;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    border-radius: 5px;
+}
+
+.card {
+    background-color: rgb(204, 204, 204);
+    padding: 10px 60px;
+    border-radius: 30px;
+    justify-self: center;
+}
+
+#container {
+    padding: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+}
